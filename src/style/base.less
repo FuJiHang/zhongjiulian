@@ -1,0 +1,112 @@
+@theme:red;//主题色
+@baseFontColor:#4a4a4a;//基本字体颜色
+@senColor:#666;//次要的颜色
+@baseW:640px;//基本宽度
+@fullW:100%;//100%的宽
+@borderColor:#eeeeee;//边框颜色
+@jiaGe:red;
+  .tB{
+    /*主题背景色*/
+    background: @theme;
+  }
+  // 黄色
+  .hC{
+    color: #ff976a;
+  }
+  .tC{
+    /*默认字体主题色  */
+    color: @theme;
+  }
+  .nC{
+    /*次级字体颜色*/
+    color: @senColor;
+  }
+  // 底部距离
+  .mB{
+    margin-bottom: .8rem;
+  }
+// 价格
+.jG{
+  color: @jiaGe;
+}
+  .wC{
+    /*白色颜色字体  */
+    color: white !important;
+  }
+  .tbgl{
+    // 主题渐变色
+      background: linear-gradient(160deg, @theme, #ffc290) !important;
+  }
+  .b-c{
+      border-color: @theme;
+  }
+  .m::before{
+    content: "¥";
+    padding: 0px;
+    margin: 0px;
+    font-size: 80%;
+    /*加金钱前缀*/
+  }
+  
+  // 边框弧度
+  .bR{
+    border-radius: .6rem;
+  }
+  //白色背景
+  .bW{
+    background: white;
+  }
+  // 底部下划实线
+  .bBS{
+    border-bottom: 1px solid rgb(245, 245, 245);
+  }
+  // 底部下划虚线
+  .bBD{
+    border-bottom: 1px dashed rgb(240, 240, 240);
+  }
+
+    // 高度百分百，滚动
+    .hO{
+      height: 100%;
+      overflow: auto;
+    }
+  .del{
+    /*加删除线*/
+    text-decoration:line-through;
+  }
+  
+  .Tline{
+    /*两行省略号  */
+    display:-webkit-box;
+    -webkit-line-clamp: 2; //超出多少行
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    word-break:break-all;
+  }
+  .Oline{
+    /*1行内省略号  */
+    display:-webkit-box;
+    -webkit-line-clamp: 1; //超出多少行
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    word-break:break-all;
+  }
+  .h50{height: 5rem;}
+  .h40{height: 4rem;}
+  .hfull{height: 100%;}
+  .w100{width: 100%;}
+
+  .fs10{font-size: 1rem};
+  .fs12{font-size: 1.2rem};
+  .fs14{font-size: 1.4rem};
+  .fs16{font-size: 1.6rem};
+  .fs18{font-size: 1.8rem};
+  .fs20{font-size: 2rem};
+  .fs22{font-size: 2.2rem};
+  .fs24{font-size: 2.4rem};
+
+  .p-r{position: relative;}
+  .p-a{position: absolute;}
+  
+  .d-f{position: fixed;}
+

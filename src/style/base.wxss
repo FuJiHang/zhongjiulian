@@ -1,0 +1,119 @@
+.tB {
+  /*主题背景色*/
+  background: red;
+}
+.hC {
+  color: #ff976a;
+}
+.tC {
+  /*默认字体主题色  */
+  color: red;
+}
+.nC {
+  /*次级字体颜色*/
+  color: #666;
+}
+.mB {
+  margin-bottom: .8rem;
+}
+.jG {
+  color: red;
+}
+.wC {
+  /*白色颜色字体  */
+  color: white !important;
+}
+.tbgl {
+  background: linear-gradient(160deg, red, #ffc290) !important;
+}
+.b-c {
+  border-color: red;
+}
+.m::before {
+  content: "¥";
+  padding: 0px;
+  margin: 0px;
+  font-size: 80%;
+  /*加金钱前缀*/
+}
+.bR {
+  border-radius: .6rem;
+}
+.bW {
+  background: white;
+}
+.bBS {
+  border-bottom: 1px solid #f5f5f5;
+}
+.bBD {
+  border-bottom: 1px dashed #f0f0f0;
+}
+.hO {
+  height: 100%;
+  overflow: auto;
+}
+.del {
+  /*加删除线*/
+  text-decoration: line-through;
+}
+.Tline {
+  /*两行省略号  */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.Oline {
+  /*1行内省略号  */
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.h50 {
+  height: 5rem;
+}
+.h40 {
+  height: 4rem;
+}
+.hfull {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.fs10 {
+  font-size: 1rem;
+}
+.fs12 {
+  font-size: 1.2rem;
+}
+.fs14 {
+  font-size: 1.4rem;
+}
+.fs16 {
+  font-size: 1.6rem;
+}
+.fs18 {
+  font-size: 1.8rem;
+}
+.fs20 {
+  font-size: 2rem;
+}
+.fs22 {
+  font-size: 2.2rem;
+}
+.fs24 {
+  font-size: 2.4rem;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.d-f {
+  position: fixed;
+}
